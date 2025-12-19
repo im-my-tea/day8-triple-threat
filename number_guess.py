@@ -30,7 +30,6 @@ def game():
     print("Welcome to the Number Guessing Game!")
     print("I'm thinking of a number between 1 and 100.")
     answer = random.randint(1, 100)
-    print(answer)
     turns = difficulty()
     guess = 0
     while guess != answer:
